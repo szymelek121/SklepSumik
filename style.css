@@ -13,11 +13,14 @@ header{
 }
 header p{
   text-align: center;
+  color: gold;
 }
 footer{
     background-color: gray;
     width: 100%;
     text-align: center;
+  
+    
     
 }
 .div2{
@@ -78,19 +81,53 @@ footer{
   .lista2{
     margin-left: 5%;
   }
-  .header{
-    position: relative;
-    display: inline;
-  }
   .header p{
-    position: relative;
+    text-align: center;
     font-size: 25px;
     padding: 5px;
   }
-  .header li a{
-    position: unset;
-  }
-  ul, li {
+
+   ul, li {
     list-style-type: disc;
+  }
+  .a{
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: 70%;
+  position: relative;
+    left: 30%;
+    font-size: larger;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+  }
+  .b{
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: 70%;
+    position: relative;
+    left: 30%;
+    font-size: larger;
+    margin-top: 10px;
+  }
+  .c{
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    position: relative;
+    left: 30%;
+    font-size: larger;
+    margin-top: 10px;
+  }
+  .Kup{
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 80%;
+    top: 50%;
+  }
+  .abc{
+    flex-direction: column;
+    margin: 10px;
   }
   
